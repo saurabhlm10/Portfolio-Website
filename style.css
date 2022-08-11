@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #1d1d1d;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    height: 15vh;
+    padding: 0 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    width: 35vw;
+    font-size: 22px;
+    font-weight: 600;
+    filter: drop-shadow(1px 1px 2px rgba(255, 255, 255, 0.6));
+}
+
+.nav-list li:hover{
+    filter: drop-shadow(1px 1px 2px rgba(226, 23, 23, 0.6));
+    cursor: pointer;
+}
+
+
+.nav-line{
+    height: 2px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.intro{
+    height: 75vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.intro h1{
+    font-size: 40px;
+}
+
+.intro h1 span{
+    color: #51E1ED;
+}
+
+.intro h2{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.intro h2 span{
+    color: #DDD101;
+}
+
+.project-section{
+    text-align: center;
+    padding: 0 5vw;
+}
+
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    margin-top: 3vh;
+
+}
+
+.project{
+    padding: 2vw;
+    background-color: #101010;
+    width: 34vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2vw;
+    border-radius: 30px;
+    filter: drop-shadow(0px 0px 2px rgba(255, 255, 255, 0.4));
+}
+
+.project-image{
+    overflow: hidden;
+    height: 30vh;
+}
+
+.project-image img{
+    width: 30vw;
+    /* height: 30vh; */
+    /* position: absolute; */
+}
+
+.project h1{
+    margin-top: 15px;
+    color: #DDD101;
+}
+
+.project-buttons{
+    margin-top: 15px;
+}
+
+.project-buttons button{
+    margin: 5px;
+    padding: 10px 15px;
+    width: 200px;
+    border: 2px solid #51E1ED;
+    border-radius: 5px;
+    background: none ;
+    font-size: 20px;
+}
+
+.project-buttons button a{
+    text-decoration: none;
+    color: #51E1ED;
+}
+
+.project-buttons button:hover{
+    border: 2px solid #DDD101;
+    color: #E21717;
+    filter: drop-shadow(1px 1px 2px rgba(221, 209, 1, 0.8) );
+    cursor: pointer;
+}
